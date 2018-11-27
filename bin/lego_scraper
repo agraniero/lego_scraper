@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require_relative "../lib/environment"
+#require_relative "../lib/lego_scraper/cli"
+
+LegoScraper::CLI.new.start
